@@ -37,7 +37,18 @@ ul{
 .wrapper{
     max-width: 1400px;
     background-color: gold;
+    margin: auto;
+    padding-inline: 1.5rem;
 }
+
+
+
+
+
+
+
+
+
 
 /* HEADER STYLING */
 .navbar{
