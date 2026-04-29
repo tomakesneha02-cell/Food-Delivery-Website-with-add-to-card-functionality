@@ -31,12 +31,14 @@ ul{
 .between{
     justify-content: space-between;
 }
+.gap-2{
+    gap: 3rem;
+}
 .gap-3{
     gap: 3rem;
 }
 .wrapper{
     max-width: 1400px;
-    background-color: gold;
     margin: auto;
     padding-inline: 1.5rem;
 }
@@ -54,7 +56,46 @@ ul{
 .navbar{
     min-height: 14vh;
 }
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold-finger);
+    margin-left: 50px;
+}
+.btn{
+    display: inline-block;
+    border-radius: 1rem;
+    padding: .9rem 2rem;
+    background: var(--gold-finger);
+    font-size: 1.1rem;
+    color: var(--pure-white);
+    box-shadow: rgb(0, 0, 0, 0.1) 0 2px 1px;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: var(--lead);
+}
+.class-icon{
+    color: var(--lead);
+    font-size: 1.3rem;
+    position: relative;
 
+
+}
+.class-icon  .cart-value{
+    top: 50%;
+    right: -10px;
+    position: absolute;
+    font-size: .85rem;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold-finger);
+    color: var(--lead);
+    text-align: center;
+    line-height: 20px;
+
+}
 
 /* SECTION STYLING */
 
