@@ -88,13 +88,18 @@ ul{
     position: absolute;
     font-size: .85rem;
     width: 20px;
-    aspect-ratio: 1;
+    aspect-ratio: 1; 
     border-radius: 100vw;
     background: var(--gold-finger);
     color: var(--lead);
     text-align: center;
     line-height: 20px;
-
+}
+.Desktop-action  .hamburger
+{
+    font-size: 1.5rem;
+    display: none;
+       
 }
 
 /* SECTION STYLING */
@@ -176,3 +181,13 @@ ul{
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 780px){
+    .navlist,
+    .Desktop-action .btn{
+        display: none;
+    }
+    .Desktop-action .hamburger{
+        display: block;
+    }
+    
+}
