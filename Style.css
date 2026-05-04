@@ -101,6 +101,9 @@ ul{
     display: none;
        
 }
+.Mobile-menu{
+     display: none;
+}
 
 /* SECTION STYLING */
 
@@ -189,5 +192,28 @@ ul{
     .Desktop-action .hamburger{
         display: block;
     }
-    
+    .Mobile-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        position: absolute;
+        top: 20%;
+        left: -100%;
+        transform: translate(-50%);
+        width: 20rem;
+        padding: 2rem;
+        background: var(--pure-white);
+        border: .1rem solid var(--gold-finger);
+        border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.5) 8px 8px 8px
+        rgba(0, 0, 0, 0.5) 8px 8px 8px inset;
+        
+    }
+    .Mobile-menu-active{
+        left: 50%;
+        transform: translate(-50%);
+        transition: all .5s ease-in-out;
+    }
 }
