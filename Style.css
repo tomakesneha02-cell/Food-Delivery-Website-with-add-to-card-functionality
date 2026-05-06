@@ -42,7 +42,12 @@ ul{
     margin: auto;
     padding-inline: 1.5rem;
 }
-
+img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+     /* display: block;*/
+} 
 
 
 
@@ -110,6 +115,10 @@ ul{
     /* background: gold; */
     min-height: calc(100vh - 14vh);
 
+}
+.content,
+.image-container{
+    flex: 1;
 }
 
 
