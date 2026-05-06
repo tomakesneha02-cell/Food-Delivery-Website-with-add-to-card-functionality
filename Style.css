@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
-    border: .1rem solid red;
+    /* border: .1rem solid red; */
 }
 
 :root{
@@ -122,7 +122,32 @@ img{
 .image-container{
     flex: 1;
 }
+h1{
+    font-size: 5.6vw;
+    color: var(--lead);
+}
+ h1  span{
+    color:  var(--gold-finger);
+ }
+ p{
+    font-size: 1.25rem;
+    color: gray;
+    list-style: 1.8rem;
 
+ }
+ .para{
+    margin-block: 2rem;;
+ }
+ .social-icon{
+    background: var(---hint-yellow);
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 3rem;
+    box-shadow: rgb(0, 0, 0, 0.1) 0 2px 1px;
+}
 
 /* FOOTER STYLING */
 
