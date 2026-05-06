@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
+    border: .1rem solid red;
 }
+
 :root{
     --lead: #212121;
     --gold-finger: #F2BD12;
@@ -46,7 +48,7 @@ img{
     max-width: 100%;
     height: auto;
     margin: auto;
-     /* display: block;*/
+     display: block;
 } 
 
 
