@@ -58,6 +58,13 @@ img{
     text-align: center;
 }
 /* section1 */
+h5{
+   font-size: 1.2rem;
+   letter-spacing: .2rem;
+   color: var(--gold-finger);
+   text-transform: uppercase;   
+    
+}
 
 
 
