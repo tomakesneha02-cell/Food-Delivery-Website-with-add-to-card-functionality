@@ -51,6 +51,14 @@ img{
     margin: auto;
      display: block;
 } 
+.p-top{
+    padding: 10rem;
+}
+.text-center{
+    text-align: center;
+}
+/* section1 */
+
 
 
 
@@ -230,6 +238,7 @@ h1{
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 780px){
+    /* Header styling */
     .navlist,
     .Desktop-action .btn{
         display: none;
@@ -260,5 +269,19 @@ h1{
         left: 50%;
         transform: translate(-50%);
         transition: all .5s ease-in-out;
+ 
+    }
+    /* section styling*/
+    h1{
+        font-size: 3.6rem;
+    }
+    .content{
+        padding: 3rem;;
+    }
+    .gap-2{
+        gap: 1.4rem;
+    }
+    .gap-4{
+        gap: 4rem;
     }
 }
