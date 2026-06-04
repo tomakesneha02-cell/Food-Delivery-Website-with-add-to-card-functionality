@@ -6,6 +6,8 @@
     <title>Foodie Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script  defer src="swiper.js"></script>
 </head>
 <body>
     <!-- HEADER PART -->
@@ -110,33 +112,119 @@
             </div>
         </section>
         <section>
-            <div  class="p-top">
-                <div class="text-center">
+            <div  class="p-top gap-4">
+                <div class="text-center ">
                     <h5>Our Services</h5>
                     <h2>How Does It Work?</h2>
                 </div>
-                <div class="flex ">
-                    <div class="Services-card">
+                <div class="flex text-center gap-4">
+                    <div class="services-card">
                         <div class="image-container">
                             <img src="images/easy-to-order.png">
                         </div>
                         <h3>Easy to Order</h3>
                         <p>You only need few step to ordering food</p>
                     </div>
-                    <div class="Services-card">
+                    <div class="services-card">
                         <div class="image-container">
                             <img src="images/fast-delivery.png">
                         </div>
                         <h3>Fast delivery</h3>
                         <p>Delivery that is always ontime even faster.</p>
                     </div>
-                    <div class="Services-card">
+                    <div class="services-card">
                         <div class="image-container">
                             <img src="images/best-quality.png">
                         </div>
                         <h3>Best Quality</h3>
-                        <p>Not only fast for us in Quality is also nuber one.</p>
+                        <p>Quality is also number one.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div  class="wrapper p-top">
+                <div class="text-center ">
+                    <h5>Our Menu</h5>
+                    <h2>The Most Popular</h2>
+                </div>
+
+                <div class="card-list text-center mt-4 gap-2 flex">
+                      <!-- <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/burger.png">
+                        </div>
+                        <h4>
+                            Double Beef Burger
+                        </h4>
+                        <h4 class="price">
+                            $200
+                        </h4>
+                        <a href="#" class="btn">Add to Card</a>
+                      </div>    
+                      <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/burger.png">
+                        </div>
+                        <h4>
+                            Double Beef Burger
+                        </h4>
+                        <h4 class="price">
+                            $200
+                        </h4>
+                        <a href="#" class="btn">Add to Card</a>
+                      </div>    
+                      <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/burger.png">
+                        </div>
+                        <h4>
+                            Double Beef Burger
+                        </h4>
+                        <h4 class="price">
+                            $200
+                        </h4>
+                        <a href="#" class="btn">Add to Card</a>
+                      </div>    
+                      <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/burger.png">
+                        </div>
+                        <h4>
+                            Double Beef Burger
+                        </h4>
+                        <h4 class="price">
+                            $200
+                        </h4>
+                        <a href="#" class="btn">Add to Card</a>
+                      </div>     -->
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper p-top flex gap-3">
+                <div class="image-container">
+                    <img src="images/delivery-boy-with-phone.png">
+                </div>
+                <div class="content">
+                    <h5>
+                        Our reviews
+                    </h5>
+                    <h2>
+                        What they say?
+                    </h2>
+                    <div class="review-container">
+                        <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -146,5 +234,6 @@
     <footer>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </body>
 </html>
