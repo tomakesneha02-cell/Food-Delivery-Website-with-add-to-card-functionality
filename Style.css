@@ -57,6 +57,17 @@ img{
 .text-center{
     text-align: center;
 }
+.mt-hlaf{
+    margin-top: .5rem;
+
+}
+.m-auto{
+    margin: auto;
+}
+.mt-one-half{
+  margin-top: 1.5rem;   
+}
+
 
 
 
@@ -214,14 +225,224 @@ h4{
     color: var(--gold-finger);
     padding: 1.3rem 0 2rem 0;
 }
+/* cart tab styling */
+
+.cart-tab{
+ background: var(---hint-yellow);
+ position: fixed;
+ inset: 0 -500px 0 auto;
+ width: 25rem;
+ padding-block: 2rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ z-index: 99;
+ box-shadow: 
+ rgba(0, 0, 0, 0.1) -10px -10px 20px;
+ transition: .3s ease-in-out;
+}
+.cart-tab-active{
+    inset: 0 0 0 auto;
+}
+.cart-list{
+    flex: 1;
+    width: 100%;
+    margin-top: 1.5rem;
+    overflow: auto;
 
 
+}
+.cart-list::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.total-container{
+    width: 100%;
+    background: var(--gold-finger);
+    text-align: center;
+    margin-block: 1rem;
+    padding-block: 1rem;
+
+
+}
+.total-container h4{
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.btn-container .btn{
+    background: var(--lead);
+    transition: .3s ease-in-out;
+}
+.btn-container .btn:hover{
+    background: var(--gold-finger);
+    color: var(--lead);
+
+}
+.cart-list .item:nth-child(even){
+ background: var(--eye-ball);
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: .7rem 1rem;
+    gap: 1rem;
+}
+.item.slide-out{
+    transform: translate(40%);
+}
+.item .detail{
+    flex: 2;
+}
+.item .item-image img{
+  width: 5rem;  
+}
+
+.item h4{
+    font-size: 1.3rem;
+    color: var(--lead);
+}
+.item .item-total{
+    font-weight: 400;
+    margin-top: .3rem;
+}
+.quantity-btn{
+    background: var(--lead);
+    color: var(--pure-white);
+    width: 1.7rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.quantity-value{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-inline: .6rem;
+}
+.slide
 /* Section 03 */
 
 .swiper {
       width: 100%;
       height: 100%;
     }
+.review-container{
+    /* background-color: red; */
+    width: 650px;
+    max-width: 100%;
+    flex: 1;
+}
+.profile{
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    overflow: hidden;
+
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit:conver;
+
+}
+.fa-star{
+    color: var(--gold-finger);
+}
+.mt-hlaf{
+    margin-top: .5rem;
+}
+.arrow{
+    width: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold-finger);
+    color: var(--lead);
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+/* section 04 */
+
+.app-container{
+    background: var(---hint-yellow);
+    padding: 3rem 6rem ;
+    border-radius: 3rem;
+    flex: 1;
+}
+.app-image{
+  flex: 1;
+}
+.app-image img{
+    width: 25rem ;
+
+}
+.app-container h2{
+    font-size: 3.5rem;
+}
+.app-container .image-container img{
+    width: 25rem;
+}
+/* section 05 */
+.input-container{
+    width: 43rem;
+    max-width: 100%;
+    background-color: var(--pure-white);
+    padding: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 8px ;
+    border-radius: 1rem;
+
+}
+input[type="email"]{
+    flex:1;
+    height: 7vh;
+    background: transparent;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+input[type="email"]:focus{
+    outline: none;
+
+}
+.footer-container{
+    margin-top: 10rem;
+    padding-block: 4rem;
+    background: var(---hint-yellow);
+
+}
+.footer-wrapper{
+    flex: 1;
+    flex-basis: 150px;
+
+}
+.footer-wrapper:nth-child(1){
+    flex: 2;
+    flex-basis: 300px;
+}
+.footer-wrapper .social-icon{
+    background: var(--pure-white);
+}
+.footer-wrapper .logo{
+    margin: 0;
+}
+.footer-container .flex{
+    align-items: flex-start;
+}
+.footer-wrapper .social-icon:hover{
+    background: var(--lead);
+    color: var(--pure-white);
+}
+.footer-link{
+    color: gray;
+    font-size: 1.1rem;
+    transition: .3s ease-in-out;
+   
+}
+.footer-link:hover{
+    color: var(--lead);
+}
 
 
 
@@ -258,6 +479,7 @@ h4{
         
     }
     .Mobile-menu-active{
+        
         left: 50%;
         transform: translate(-50%);
         transition: all .5s ease-in-out;
@@ -280,4 +502,12 @@ h4{
     h2{
         font-size: 3rem;
     }
+    /* section 04 */
+    .app-container{
+        padding: 2.2rem;
+    }
+    .app-container .content h2{
+        font-size: 3.5 rem;
+    }
+
 }
