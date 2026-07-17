@@ -25,11 +25,13 @@ A responsive Food Delivery Website built using HTML, CSS, JavaScript, and JSON. 
 
 ## Project Structure
 
-Food-Delivery-Website/
-│
-├── index.html
-├── style.css
-├── script.js
-├── products.json
-├── images/
-└── README.md
+## Project Structure
+
+📁 Food-Delivery-Website
+
+- 📄 index.html
+- 📄 style.css
+- 📄 script.js
+- 📄 products.json
+- 📁 images
+- 📄 README.md
